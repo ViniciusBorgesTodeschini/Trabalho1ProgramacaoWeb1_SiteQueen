@@ -158,43 +158,43 @@ li{
 }
 
 li.reinoUnido{
-    list-style-image: url("../_imagens/_paises/reinoUnido.png");
+    list-style-image: url("../imagens/paises/reinoUnido.png");
 }
 
 li.alemanha{
-    list-style-image: url("../_imagens/_paises/alemanha.png");
+    list-style-image: url("../imagens/paises/alemanha.png");
 }
 
 li.italia{
-    list-style-image: url("../_imagens/_paises/italia.png");
+    list-style-image: url("../imagens/paises/italia.png");
 }
 
 li.paisesBaixos{
-    list-style-image: url("../_imagens/_paises/paisesBaixos.png");
+    list-style-image: url("../imagens/paises/paisesBaixos.png");
 }
 
 li.belgica{
-    list-style-image: url("../_imagens/_paises/belgica.png");
+    list-style-image: url("../imagens/paises/belgica.png");
 }
 
 li.noruega{
-    list-style-image: url("../_imagens/_paises/noruega.png");
+    list-style-image: url("../imagens/paises/noruega.png");
 }
 
 li.franca{
-    list-style-image: url("../_imagens/_paises/franca.png");
+    list-style-image: url("../imagens/paises/franca.png");
 }
 
 li.espanha{
-    list-style-image: url("../_imagens/_paises/espanha.png");
+    list-style-image: url("../imagens/paises/espanha.png");
 }
 
 li.suica{
-    list-style-image: url("../_imagens/_paises/suica.png");
+    list-style-image: url("../imagens/paises/suica.png");
 }
 
 li.dinamarca{
-    list-style-image: url("../_imagens/_paises/dinamarca.png");
+    list-style-image: url("../imagens/paises/dinamarca.png");
 }
 
 table.integrantes{
