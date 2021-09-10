@@ -239,32 +239,24 @@ footer{
     background-color: Gainsboro;
 }
 
-div.rodape{
-    position: absolute;
-}
-
 img.logoFooter{
     float: left;
-    position: relative;
     margin-top: 40px;
 }
 
 ul.listaAcessos{
     list-style-type: none;    
     float: left;
-    position: relative;
 }
 
 div.midiasRodape{
     float: left;
-    position: relative;
     margin-left: 250px;
     margin-top: 180px;
 }
 
 div.notas{
     clear: left;
-    position: relative;
     margin-left: 250px;
     margin-top: 260px;
 }
