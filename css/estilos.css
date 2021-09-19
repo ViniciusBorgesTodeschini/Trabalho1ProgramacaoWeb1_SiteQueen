@@ -232,6 +232,91 @@ section.conteudo{
     padding: 10px;
 }
 
+/*Fomulário*/
+div.itensFormulario{
+    padding: 10px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+fieldset.fieldSexo{
+    width: 350px;
+}
+
+input:focus{
+    border: 1px solid;
+    color: green;
+}
+
+fieldset.fieldIdent, fieldset.fieldMensagem{
+    width: 600px;
+}
+
+label.nome{
+    margin-left: 90px;
+}
+
+input#nome{
+    width: 30%;
+}
+
+label.email{
+    padding: 10px 0px 10px 10px;
+}
+
+input#email{
+    width: 30%;
+}
+
+fieldset.fieldSexo{
+    margin-left: 142px;
+    width: 405px;
+}
+
+label.sexo{
+    padding: 10px 0px 10px 25px;  
+}
+
+label.empresa{
+    margin-left: 68px;
+}
+
+input#empresa{
+    width: 420px;
+}
+
+label.telefone{
+    margin-left: 71px;
+}
+
+label.contato{
+    margin-left: 6px;
+}
+
+label.celular{
+    padding: 10px 0px 10px 10px;
+}
+
+label.dia{
+    padding: 10px 0px 10px 50px;
+}
+
+input#assunto{
+    width: 575px;
+}
+
+div.botoes{
+    margin-left: 240px;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    font-weight: bolder;
+}
+
 /*FOOTER*/
 footer{
     border: solid 1px black;

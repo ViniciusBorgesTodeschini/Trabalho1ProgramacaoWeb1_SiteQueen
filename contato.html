@@ -36,7 +36,88 @@
     <div class="separador"></div>    
 
     <section class="conteudo">
-        <p>FORMULÁRIO VAI AQUI</p>
+        <form action="mailto:vinibt58@gmail.com" method="post">
+            
+            <input type="hidden" name="código">
+
+            <fieldset class="fieldIdent">
+                <legend>Identificação</legend>
+
+                <div class="itensFormulario">
+                    <label for="nome" class="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" maxlength="100">
+                    
+                    <label for="email" class="email">e-mail: </label>
+                    <input type="text" name="email" id="email" maxlength="100">
+                </div>
+    
+                <div class="itensFormulario">
+                    <fieldset class="fieldSexo">
+                        <legend>Sexo</legend>
+
+                        <label for="sexo" class="sexo">Não binário</label>
+                        <input type="radio" name="sexo" id="" checked>   
+        
+                        <label for="sexo" class="sexo">Masculino</label>
+                        <input type="radio" name="sexo" id="">
+                    
+                        <label for="sexo" class="sexo">Feminino</label>
+                        <input type="radio" name="sexo" id="">            
+                    </fieldset>                
+                </div>            
+    
+                <div class="itensFormulario">
+                    <label for="empresa" class="empresa">Empresa: </label>
+                    <input type="text" name="empresa" id="empresa" maxlength="100">
+                </div>
+    
+                <div class="itensFormulario">
+                    <label for="telefone" class="telefone">Telefone: </label>
+                    <input type="text" name="telefone" id="telefone" maxlength="12">
+                    <label for="celular" class="celular">Celular: </label>       
+                    <input type="text" name="celular" id="celular" maxlength="13">         
+                </div>
+    
+                <div class="itensFormulario">
+                    <label for="contato" class="contato">Forma de contato: </label>
+                    <input type="text" name="contato" id="contato" maxlength="20">
+                </div>
+    
+                <div class="itensFormulario">
+                    <label for="horario" class="horario">Horário de contato: </label>
+                    <input type="number" name="horario" min="0" max="24">
+
+                    <label for="horarioAs" class="horarioAs">as: </label>
+                    <input type="number" name="horarioAs" min="0" max="24">
+
+                    <label for="dia" class="dia"> Dia: </label>
+                    <input type="date" name="dia" min="2021-09-27" max="2030-12-31">
+                </div>                                
+            </fieldset>
+            
+            <div class="separador"></div>
+            
+            <fieldset class="fieldMensagem">
+                <legend>Mensagem</legend>
+
+                <div class="itensFormulario">
+                    <label for="assunto" class="assunto">Assunto: </label>
+                    <input type="text" name="assunto" id="assunto" maxlength="50">
+                </div>            
+
+                <div class="itensFormulario">
+                    <label for="mensagem" class="mensagem">Descrição: </label>    
+                    <textarea name="mensagem" id="mensagem" cols="80" rows="10" maxlength="500"></textarea>
+                </div>
+            </fieldset>
+
+            <div class="botoes">
+                <div class="itensFormulario">
+                    <button type="subtmit" class="enviar">Enviar</button>
+                    <button type="reset" class="limpar">Limpar</button>
+                </div>           
+            </div>
+        </form>
     </section>
 
     <div class="separador"></div>
